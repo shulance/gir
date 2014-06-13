@@ -25,9 +25,7 @@
     "hubot": ">= 2.6.0 < 3.0.0",
     "hubot-hipchat": "^2.6.4-2",
     "hubot-scripts": ">= 2.5.0 < 3.0.0",
-    "time": "0.8.2",
-    "strftime": "0.5.0",
-    "string": "1.2.1"
+    "time": "0.8.2"
   },
   "engines": {
     "node": ">= 0.8.x",
