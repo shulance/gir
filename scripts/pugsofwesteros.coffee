@@ -38,13 +38,15 @@ module.exports = (robot) ->
   jonsnow = ->
     "http://37.media.tumblr.com/a0730380fdcc69a0cdbfec82e03ead8e/tumblr_n7p1mmtIz71r3gb3zo3_400.gif"
 
-
   king = ->
     "http://37.media.tumblr.com/63607822541d0ed463fee5adc5dd68ef/tumblr_n7p1mmtIz71r3gb3zo8_400.gif"
 
 
   daenerys = ->
-    "http://38.media.tumblr.com/076aebb944f6a19bfa1ae4d82b355fed/tumblr_n7p1mmtIz71r3gb3zo1_400.gif"
+    "http://38.media.tumblr.com/4504d1a9ee49ca3725ea1f55f2c009ea/tumblr_n7p1mmtIz71r3gb3zo4_400.gif"
+
+  robert = ->
+    "http://38.media.tumblr.com/0e95c2fd647c640b727e1d0103bf6253/tumblr_n7p1mmtIz71r3gb3zo5_400.gif"
 
 
 
@@ -63,8 +65,10 @@ module.exports = (robot) ->
   robot.hear /king|joffrey|bastard/i, (msg) ->
     msg.send king()
 
-  robot.hear /daenerys|targaryen/i, (msg) ->
+  robot.hear /daenerys|targaryen|khaleesi/i, (msg) ->
     msg.send daenerys()
 
+  robot.hear /piss on that/i, (msg) ->
+    msg.send robert()
   
 
