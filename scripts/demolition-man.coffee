@@ -12,25 +12,7 @@
 # Author:
 #   whitman, jan0sch
 
-
-credits = {}
-
-addCredit = (msg, username, credits) ->
-  credits[username] ?= 0
-  credits[username] += parseInt(credits)
-  msg.send credits + ' Awarded To ' + username
-
-save = (robot) ->
-  robot.brain.data.credits = credits
-
-
-
-
-module.exports = (robot) ->
-  robot.brain.on 'loaded', ->
-    credits = robot.brain.data.credits or {}
-
-  words = [
+words = [
     'arsch',
     'arschloch',
     'arse',
@@ -61,13 +43,32 @@ module.exports = (robot) ->
     'wank',
     'wichser'
   ]
-  regex = new RegExp('(?:^|\\s)(' + words.join('|') + ')(?:\\s|\\.|\\?|!|$)', 'i');
 
-  robot.hear regex, (msg) ->
-    msg.send 'You have been fined one credit for a violation of the verbal morality statute.'
+regex = new RegExp('(?:^|\\s)(' + words.join('|') + ')(?:\\s|\\.|\\?|!|$)', 'i');
 
-    username = msg.match[1]
+credits = {}
+
+addCredit = (msg, username, creds) ->
     credits[username] ?= 0
+    credits[username] += parseInt(creds)
+    msg.send '@' + username + ', you have been fined one credit for a violation of the verbal morality statute.'
 
-    msg.send username + ' Has ' + credits[username] + ' Points'
-    save(robot)
+save = (robot) ->
+    robot.brain.data.credits = credits
+
+module.exports = (robot) ->
+    robot.brain.on 'loaded', ->
+      credits = robot.brain.data.credits or {}
+
+    robot.hear regex, (msg) ->
+      username = msg.message.user.name.toLowerCase()
+      fined = 1
+      addCredit(msg, username, fined)
+      save(robot)
+
+    robot.respond /how many credits does (.*?) owe\??/i, (msg) ->
+      username = msg.match[1]
+      credits[username] ?= 0
+      msg.send username + ' owes ' + credits[username] + ' credits.'
+      if credits[username] > 10
+        msg.send '@' + username + ', you\'re dirtier than the three seashells!'
