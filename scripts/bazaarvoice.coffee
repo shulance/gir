@@ -15,5 +15,5 @@ bv = [
 ]
 
 module.exports = (robot) ->
-  robot.hear /bazaarvoice/i, (msg) ->
+  robot.hear /\ bazaarvoice|bv/i, (msg) ->
     msg.send msg.random bv

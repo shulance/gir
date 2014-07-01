@@ -53,16 +53,16 @@ module.exports = (robot) ->
   robot.hear /game of thrones|westeros/i, (msg) ->
     msg.send msg.random pugs
 
-  robot.hear /ned|stark|winterfell/i, (msg) ->
+  robot.hear /\ ned\ |stark|winterfell/i, (msg) ->
     msg.send msg.random ned
 
-  robot.hear /tyrion|imp/i, (msg) ->
+  robot.hear /tyrion|\ imp/i, (msg) ->
     msg.send msg.random tyrion
 
   robot.hear /jon snow|you know nothing/i, (msg) ->
     msg.send jonsnow()
 
-  robot.hear /king|joffrey|bastard/i, (msg) ->
+  robot.hear /king|joffrey/i, (msg) ->
     msg.send king()
 
   robot.hear /daenerys|targaryen|khaleesi/i, (msg) ->
