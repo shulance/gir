@@ -14,7 +14,6 @@ catbox = [
   "http://stream1.gifsoup.com/view6/2684495/maru-cat-box-o.gif",
   "http://gifrific.com/wp-content/uploads/2014/02/Cat-backs-out-of-box-of-cats.gif",
   "http://25.media.tumblr.com/tumblr_m5e6ymbQ051qfo1o9o1_500.gif",
-  "https://i.chzbgr.com/maxW500/5433803776/h57A270FF/",
   "http://stream1.gifsoup.com/view7/4690888/cat-box-o.gif",
   "http://gifrific.com/wp-content/uploads/2013/04/Cat-Fits-Inside-Shoe-Box.gif",
   "http://meowgifs.com/wp-content/uploads/2014/02/not-fits.gif",
