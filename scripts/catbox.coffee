@@ -17,7 +17,19 @@ catbox = [
   "http://stream1.gifsoup.com/view7/4690888/cat-box-o.gif",
   "http://gifrific.com/wp-content/uploads/2013/04/Cat-Fits-Inside-Shoe-Box.gif",
   "http://meowgifs.com/wp-content/uploads/2014/02/not-fits.gif",
-  "http://25.media.tumblr.com/tumblr_lksy8tj7g01qh5iszo1_400.gif"
+  "http://25.media.tumblr.com/tumblr_lksy8tj7g01qh5iszo1_400.gif",
+  "http://img.pandawhale.com/50483-Maru-the-cat-sliding-a-box--Im-pysd.gif",
+  "http://static.fjcdn.com/gifs/Oh_7a9c30_1567288.gif",
+  "http://geaugadoggy.files.wordpress.com/2013/09/anigif_enhanced-buzz-18403-1379361164-16.gif",
+  "http://stream1.gifsoup.com/view2/4661230/cat-box-o.gif",
+  "http://d2tq98mqfjyz2l.cloudfront.net/image_cache/1349518748768875_animate.gif",
+  "http://24.media.tumblr.com/tumblr_m8iuo3TPmy1rd8rqoo1_400.gif",
+  "http://petmerightmeow.com/wp-content/uploads/funny-gif-cat-box-jump-trapped.gif",
+  "http://bunkstrutts.files.wordpress.com/2011/06/laser-cat-box.gif",
+  "http://www.shangralafamilyfun.com/gala-e/catbox.gif",
+  "http://lacouleurdecendres.files.wordpress.com/2012/08/557b294dff959b010c67f88b90a2e5b7de532e97_m.gif",
+  "http://www.templeofcats.com/wp-content/gallery/gifs-used/cat-box-attack.gif",
+  "http://media.tumblr.com/tumblr_lqwa4yGOip1qzs6oc.gif"
 ]
 
 module.exports = (robot) ->
