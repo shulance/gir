@@ -5,7 +5,7 @@
 # None
 #
 # Commands:
-# delph, red panda - replies with a red panda gif
+# delph, redpanda - replies with a red panda gif
 
 
 redpanda = [
@@ -33,5 +33,5 @@ redpanda = [
 ]
 
 module.exports = (robot) ->
-  robot.hear /red panda|delph/i, (msg) ->
+  robot.hear /redpanda|delph/i, (msg) ->
     msg.send msg.random redpanda
