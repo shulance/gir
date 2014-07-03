@@ -29,7 +29,17 @@ catbox = [
   "http://www.shangralafamilyfun.com/gala-e/catbox.gif",
   "http://lacouleurdecendres.files.wordpress.com/2012/08/557b294dff959b010c67f88b90a2e5b7de532e97_m.gif",
   "http://www.templeofcats.com/wp-content/gallery/gifs-used/cat-box-attack.gif",
-  "http://media.tumblr.com/tumblr_lqwa4yGOip1qzs6oc.gif"
+  "http://media.tumblr.com/tumblr_lqwa4yGOip1qzs6oc.gif",
+  "http://s3-ec.buzzfed.com/static/enhanced/webdr01/2013/3/14/12/anigif_enhanced-buzz-24008-1363279916-3.gif",
+  "http://s3-ec.buzzfed.com/static/enhanced/webdr01/2013/3/14/12/anigif_enhanced-buzz-23015-1363280204-3.gif",
+  "http://s3-ec.buzzfed.com/static/enhanced/webdr01/2013/3/14/13/anigif_enhanced-buzz-25275-1363281063-11.gif",
+  "http://s3-ec.buzzfed.com/static/enhanced/webdr01/2013/3/14/13/anigif_enhanced-buzz-24189-1363281483-13.gif",
+  "http://s3-ec.buzzfed.com/static/enhanced/webdr01/2013/3/14/13/anigif_enhanced-buzz-1645-1363282846-6.gif",
+  "http://s3-ec.buzzfed.com/static/enhanced/webdr03/2013/3/14/13/anigif_enhanced-buzz-779-1363280766-21.gif",
+  "http://s3-ec.buzzfed.com/static/enhanced/webdr02/2013/3/14/13/anigif_enhanced-buzz-17284-1363280959-4.gif",
+  "http://s3-ec.buzzfed.com/static/enhanced/webdr03/2013/3/14/13/anigif_enhanced-buzz-31157-1363281225-12.gif",
+  "http://s3-ec.buzzfed.com/static/enhanced/webdr01/2013/3/14/13/anigif_enhanced-buzz-26054-1363282758-19.gif",
+  "http://s3-ec.buzzfed.com/static/enhanced/webdr01/2013/3/14/13/anigif_enhanced-buzz-2934-1363282981-1.gif"
 ]
 
 module.exports = (robot) ->
