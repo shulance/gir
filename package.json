@@ -30,7 +30,7 @@
     "string": "1.8.1",
     "soupselect": "0.2.0",
     "htmlparser": "1.7.6",
-    "hubot-pugsofwesteros": "^1.0.1"
+    "hubot-pugsofwesteros": ""
   },
   "engines": {
     "node": ">= 0.8.x",
