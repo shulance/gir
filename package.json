@@ -21,16 +21,16 @@
     "url": "https://github.com/github/hubot.git"
   },
   "dependencies": {
-    "cron": "0.3.3",
+    "cron": "^0.3.3",
+    "htmlparser": "^1.7.6",
     "hubot": ">= 2.6.0 < 3.0.0",
     "hubot-hipchat": "^2.6.4-2",
+    "hubot-pugsofwesteros": "*",
     "hubot-scripts": ">= 2.5.0 < 3.0.0",
-    "time": "0.8.2",
-    "strftime": "0.8.0", 
-    "string": "1.8.1",
     "soupselect": "0.2.0",
-    "htmlparser": "1.7.6",
-    "hubot-pugsofwesteros": "*"
+    "strftime": "^0.8.0",
+    "string": "^1.8.1",
+    "time": "^0.8.2"
   },
   "engines": {
     "node": ">= 0.8.x",
