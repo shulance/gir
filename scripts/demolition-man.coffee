@@ -29,6 +29,7 @@ words = [
     'depp',
     'dick',
     'douche',
+    'crap,'
     'fag',
     'fotze',
     'fuck',

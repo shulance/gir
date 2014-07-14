@@ -6,6 +6,7 @@
 #
 # Commands:
 #   bazaarvoice - Reply with a culture boosting image of BV
+#   cat consultant - A consultant for cats
 
 
 bv = [
@@ -17,3 +18,6 @@ bv = [
 module.exports = (robot) ->
   robot.hear /\ bazaarvoice|bv/i, (msg) ->
     msg.send msg.random bv
+
+  robot.hear /cat consultant/i, (msg) ->
+  	msg.send 'https://s3.amazonaws.com/uploads.hipchat.com/67748/720194/FotA74VU8IzBBYC/ccnana.jpg'
