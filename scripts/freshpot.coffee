@@ -18,7 +18,8 @@ coffeeMakers = [
   "Jamie",
   "Nils",
   "Sam",
-  "Tony"
+  "Tony",
+  "Duncan"
 ]
 
 module.exports = (robot) ->
@@ -28,7 +29,9 @@ module.exports = (robot) ->
   robot.respond /who should (make |get )the (coffee|freshpot|fresh pot)/i, (msg) ->
     randomCoffeeMaker = coffeeMakers[Math.floor(Math.random() * coffeeMakers.length)];
 
-    if randomCoffeeMaker != "Jamie"
+    #Jamie makes such good coffee
+    random = (Math.round(Math.random() * 1))
+    if random == 1
       randomCoffeeMaker = "Jamie"
 
-    msg.send 'It is ' + randomCoffeeMaker + '\'s turn to make the coffee.'
+    msg.send 'It is ' + randomCoffeeMaker + '\'s turn to make the coffee. ' + random
