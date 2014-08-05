@@ -34,4 +34,4 @@ module.exports = (robot) ->
     if random == 1
       randomCoffeeMaker = "Jamie"
 
-    msg.send 'It is ' + randomCoffeeMaker + '\'s turn to make the coffee. ' + random
+    msg.send 'It is ' + randomCoffeeMaker + '\'s turn to make the coffee.'
