@@ -17,7 +17,9 @@ bv = [
   "http://i.imgflip.com/bride.gif",
   "http://i.imgur.com/E24BQfR.gif",
   "http://i.imgur.com/W8ins5l.gif",
-  "http://i.imgur.com/bDF4We4.gif"
+  "http://i.imgur.com/bDF4We4.gif",
+  "http://i.imgur.com/8rOaZBF.gif",
+  "http://i.imgur.com/CFzPqik.gif"
 ]
 
 module.exports = (robot) ->
