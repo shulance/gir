@@ -20,7 +20,7 @@ bv = [
   "http://i.imgur.com/bDF4We4.gif",
   "http://i.imgur.com/8rOaZBF.gif",
   "http://i.imgur.com/CFzPqik.gif",
-  "http://www.wakingdreams.de/sonstiges/sieg.gif"
+  "http://i.imgbox.com/HDo8B7Ed.gif"
 ]
 
 module.exports = (robot) ->
