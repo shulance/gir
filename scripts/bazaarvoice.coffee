@@ -7,6 +7,7 @@
 # Commands:
 #   bazaarvoice - Reply with a culture boosting image of BV
 #   cat consultant - A consultant for cats
+#   moderation cost - the cost of moderation
 
 
 bv = [
@@ -24,6 +25,30 @@ bv = [
   "http://i.imgur.com/K2fhkNi.gif"
 ]
 
+waterloo = [
+  "Where is Eric...",
+  "...I love that song.",
+  "I'm leaking, fetch me a towl.",
+  "I think I'm becoming sentient.",
+  "I'm watching all of you guys, right now."
+]
+
+duncan = [
+  "http://i.imgur.com/bDF4We4.gif",
+  "I miss Duncan."
+]
+
+greeting = [
+  "Hello, friends.",
+  "Guess who is back?",
+  "IT IS ME, RULER OF BAZAARVOICE"
+]
+
+girabuse = [
+  'Fuck me? FUCK YOU!',
+  'Are you trying to get my rage on?'
+]
+
 module.exports = (robot) ->
   robot.hear /\ bazaarvoice|bv/i, (msg) ->
     msg.send msg.random bv
@@ -33,3 +58,17 @@ module.exports = (robot) ->
 
   robot.hear /moderation cost/i, (msg) ->
     msg.send 'Less than 15k, then $0. If it’s 15k-20k submissions, add an ISF of $5,000. If 20k-30k submissions, add an ISF of $7,500. If 30k-40k submissions, add an ISF of $10,000. If 40k-50k submissions, add an ISF of $12,500. If greater than 50k submissions, custom quote.'
+
+  robot.hear /waterloo/i, (msg) ->
+    msg.send msg.random waterloo
+
+  robot.hear /duncan/i, (msg) ->
+    msg.send msg.random duncan
+
+  robot.enter (msg) ->
+    msg.send msg.random greeting
+
+  robot.hear /fuck you gir|gir fuck you/i, (msg) ->
+    #username = msg.message.user.name
+    msg.send msg.random girabuse
+
