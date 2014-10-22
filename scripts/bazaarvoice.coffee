@@ -65,9 +65,6 @@ module.exports = (robot) ->
   robot.hear /duncan/i, (msg) ->
     msg.send msg.random duncan
 
-  robot.enter (msg) ->
-    msg.send msg.random greeting
-
   robot.hear /fuck you gir|gir fuck you/i, (msg) ->
     #username = msg.message.user.name
     msg.send msg.random girabuse
