@@ -13,5 +13,5 @@ tennis = [
 ]
 
 module.exports = (robot) ->
-  robot.hear /\ tennis|anyone/i, (msg) ->
+  robot.hear /\ tennis anyone/i, (msg) ->
     msg.send msg.random tennis
