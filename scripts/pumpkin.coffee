@@ -21,5 +21,5 @@ pumpkin = [
 ]
 
 module.exports = (robot) ->
-  robot.hear /\ pumpkin|halloween/i, (msg) ->
-    msg.send msg.random pumpkin
+  robot.hear /\ pumpkin|halloween, (msg) ->
+    msg.send msg.random bv
