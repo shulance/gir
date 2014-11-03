@@ -28,7 +28,7 @@ bv = [
 waterloo = [
   "Where is Eric...",
   "...I love that song.",
-  "I'm leaking, fetch me a towl.",
+  "I'm leaking, fetch me a towel.",
   "I think I'm becoming sentient.",
   "I'm watching all of you guys, right now."
 ]
@@ -38,19 +38,13 @@ duncan = [
   "I miss Duncan."
 ]
 
-greeting = [
-  "Hello, friends.",
-  "Guess who is back?",
-  "IT IS ME, RULER OF BAZAARVOICE"
-]
-
 girabuse = [
   'Fuck me? FUCK YOU!',
   'Are you trying to get my rage on?'
 ]
 
 module.exports = (robot) ->
-  robot.hear /\ bazaarvoice|bv/i, (msg) ->
+  robot.hear /bazaarvoice/i, (msg) ->
     msg.send msg.random bv
 
   robot.hear /cat consultant/i, (msg) ->
