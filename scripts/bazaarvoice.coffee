@@ -44,8 +44,8 @@ girabuse = [
 ]
 
 module.exports = (robot) ->
-  robot.hear /bazaarvoice/i, (msg) ->
-    msg.send msg.random bv
+  #robot.hear /bazaarvoice/i, (msg) ->
+  #  msg.send msg.random bv
 
   robot.hear /cat consultant/i, (msg) ->
   	msg.send 'https://s3.amazonaws.com/uploads.hipchat.com/67748/720194/FotA74VU8IzBBYC/ccnana.jpg'
