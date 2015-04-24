@@ -29,6 +29,10 @@ redpanda = [
   "http://media3.giphy.com/media/QZDmLYMXw2M6Y/giphy.gif",
   "http://i.imgur.com/VSGCPt9.gif",
   "http://www.cutenessoverflow.com/wp-content/uploads/2014/04/red-panda-5.gif",
+  "http://33.media.tumblr.com/d3076c3c20b224c775ab4dd9b85e0cc7/tumblr_nlcbceFIF21uq2n6jo1_250.gif",
+  "http://38.media.tumblr.com/22e80bb4c709498078660cd81f001469/tumblr_nlcbceFIF21uq2n6jo2_250.gif",
+  "http://31.media.tumblr.com/0c1dc58736d7abbffb94a7ef037fdc8e/tumblr_nlcbceFIF21uq2n6jo3_250.gif",
+  "http://38.media.tumblr.com/f4a2f0e9a2adc82bb0ef6280c6097e0f/tumblr_nlcbceFIF21uq2n6jo4_250.gif",
   "http://media.giphy.com/media/aGPrYkjsWOzSg/giphy.gif"
 ]
 
