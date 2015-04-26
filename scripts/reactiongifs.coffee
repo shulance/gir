@@ -91,6 +91,26 @@ steven = [
   "http://p.fod4.com/upload/aff3567c9abaad4b798a350dc1e1b1a3/jW8vi8GSgy8wrr9Uyk4v_Horse%20Office.gif",
 ]
 
+######### Stas/mammoth   
+stas = [
+  "https://38.media.tumblr.com/727240823e4ea9fc4171c65e935d25eb/tumblr_mip17q8BAF1rnu1rao4_250.gif",
+  "https://38.media.tumblr.com/f45e3aef5d19434ee7d5e1bd584cbedc/tumblr_mskjmfCVR51swendro2_500.gif",
+  "https://38.media.tumblr.com/6d914137b2b58f111027c78e67a167c2/tumblr_mskjmfCVR51swendro3_500.gif",
+  "https://31.media.tumblr.com/4e813b0623f31a1b12e8e5eefddccbe7/tumblr_myjebwHixL1swendro1_250.gif",
+  "https://38.media.tumblr.com/14ae36a6baf1cb62ced6c63032d1eba9/tumblr_myjebwHixL1swendro2_250.gif",
+  "https://38.media.tumblr.com/facb09db1baba6ca38dc3e0946aa83fb/tumblr_mskjmfCVR51swendro1_500.gif",
+]
+
+######### Andrii/mammoth   
+andrii = [
+  "https://38.media.tumblr.com/a84ebeabf144ff754cea391e444d8660/tumblr_niy3acHVZJ1u7hkh0o7_500.gif",
+  "http://33.media.tumblr.com/e4b553725636d98413a169490ce984c0/tumblr_nfv9h9VJz11qknrlao1_250.gif",
+  "http://38.media.tumblr.com/f5c78bd9b2adfd8f0dc2837ae3e02c96/tumblr_n13otwEpSe1rx5st2o1_250.gif",
+  "http://38.media.tumblr.com/3e507bce38d1f28db1147380ab76aa51/tumblr_mxhw9ntcIa1sdyxczo1_400.gif",
+  "http://38.media.tumblr.com/32a1bb88ab6e8d110d41453d2e6ba805/tumblr_nix8gy3tmh1tm0lv8o2_250.gif",
+  "http://38.media.tumblr.com/f045e6c60a9ea957fa91af7bd2d1f50a/tumblr_n8ko3vO5Qx1ql0375o3_250.gif",
+]
+
 module.exports = (robot) ->
   robot.hear /nadja/i, (msg) ->
     msg.send msg.random nadja
@@ -112,6 +132,13 @@ module.exports = (robot) ->
     
   robot.hear /caroline/i, (msg) ->
     msg.send msg.random caroline
-
+    
   robot.hear /steven/i, (msg) ->
     msg.send msg.random steven
+    
+  robot.hear /stas/i, (msg) ->
+    msg.send msg.random stas
+    
+  robot.hear /andrii/i, (msg) ->
+    msg.send msg.random andrii
+    
