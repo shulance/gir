@@ -111,6 +111,16 @@ andrii = [
   "http://38.media.tumblr.com/f045e6c60a9ea957fa91af7bd2d1f50a/tumblr_n8ko3vO5Qx1ql0375o3_250.gif",
 ]
 
+######### Dwayne/owls   
+dwayne = [
+  "https://metrouk2.files.wordpress.com/2015/02/owl-gif1.gif",
+  "http://usvsth3m.com/wp-content/uploads/2013/10/BTCXUOl.gif",
+  "http://media.giphy.com/media/fvzQtgBkrEgLK/giphy.gif",
+  "http://media.giphy.com/media/dokdBUmBOvhUA/giphy.gif",
+  "http://37.media.tumblr.com/29d8beea2fe3fffc3f09887ab339d983/tumblr_ms740v3eZ61rd0rbzo1_500.gif",
+  "http://i.imgur.com/QeSPj.gif",
+]
+
 module.exports = (robot) ->
   robot.hear /nadja/i, (msg) ->
     msg.send msg.random nadja
@@ -142,3 +152,5 @@ module.exports = (robot) ->
   robot.hear /andrii/i, (msg) ->
     msg.send msg.random andrii
     
+  robot.hear /dwayne/i, (msg) ->
+    msg.send msg.random dwayne
