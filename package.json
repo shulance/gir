@@ -23,24 +23,17 @@
     "chalk": "^1.0.0",
     "cline": "^0.8.2",
     "coffee-script": "1.6.3",
+    "connect-multiparty": "^1.2.5",
     "express": "3.18.1",
     "log": "1.4.0",
     "optparse": "1.0.4",
-    "cron": "^0.3.4",
-    "htmlparser": "^1.7.6",
-    "hubot": ">= 2.6.0 < 3.0.0",
-    "hubot-heroku-keepalive": "0.0.4",
+    "scoped-http-client": "0.10.3",
     "hubot-hipchat": "^2.6.4-2",
-    "hubot-pugsofwesteros": "^1.0.3",
-    "hubot-scripts": ">= 2.5.0 < 3.0.0",
-    "scoped-http-client": "0.10.0",
-    "string": "^1.8.1",
-    "time": "^0.8.4",
-    "soupselect": "0.2.0"
+    "hubot-pugsofwesteros": "^1.0.3"
   },
   "engines": {
-    "node": ">= 0.8.x",
-    "npm": ">= 1.1.x"
+    "node": ">= 0.10.28",
+    "npm": ">= 2.7.0"
   },
   "main": "./index",
   "bin": {
