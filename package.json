@@ -26,6 +26,10 @@
     "express": "3.18.1",
     "log": "1.4.0",
     "optparse": "1.0.4",
+    "hubot-heroku-keepalive": "0.0.4",
+    "hubot-hipchat": "^2.6.4-2",
+    "hubot-pugsofwesteros": "^1.0.3",
+    "hubot-scripts": ">= 2.5.0 < 3.0.0",
     "scoped-http-client": "0.10.0"
   },
   "engines": {
