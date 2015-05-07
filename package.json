@@ -26,15 +26,21 @@
     "express": "3.18.1",
     "log": "1.4.0",
     "optparse": "1.0.4",
+    "cron": "^0.3.4",
+    "htmlparser": "^1.7.6",
+    "hubot": ">= 2.6.0 < 3.0.0",
     "hubot-heroku-keepalive": "0.0.4",
     "hubot-hipchat": "^2.6.4-2",
     "hubot-pugsofwesteros": "^1.0.3",
     "hubot-scripts": ">= 2.5.0 < 3.0.0",
-    "scoped-http-client": "0.10.0"
+    "scoped-http-client": "0.10.0",
+    "string": "^1.8.1",
+    "time": "^0.8.4",
+    "soupselect": "0.2.0"
   },
   "engines": {
-    "node": ">= 0.10.28",
-    "npm": ">= 2.7.0"
+    "node": ">= 0.8.x",
+    "npm": ">= 1.1.x"
   },
   "main": "./index",
   "bin": {
