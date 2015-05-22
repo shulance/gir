@@ -31,7 +31,7 @@
     "hubot-hipchat": "^2.6.4-2"
   },
   "engines": {
-    "node": ">= 0.10.28",
+    "node": ">= 0.12.2",
     "npm": ">= 2.7.0"
   },
   "main": "./index",
