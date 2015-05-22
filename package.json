@@ -28,8 +28,7 @@
     "log": "1.4.0",
     "optparse": "1.0.4",
     "scoped-http-client": "0.10.3",
-    "hubot-hipchat": "^2.6.4-2",
-    "hubot-pugsofwesteros": "^1.0.3"
+    "hubot-hipchat": "^2.6.4-2"
   },
   "engines": {
     "node": ">= 0.10.28",
