@@ -21,6 +21,20 @@
     "url": "https://github.com/github/hubot.git"
   },
   "dependencies": {
+<<<<<<< HEAD
+    "cron": "^0.3.4",
+    "htmlparser": "^1.7.6",
+    "hubot": ">= 2.6.0 < 3.0.0",
+    "hubot-heroku-keepalive": "0.0.4",
+    "hubot-hipchat": "^2.6.4-2",
+    "hubot-pugsofwesteros": "^1.0.3",
+    "hubot-scripts": ">= 2.5.0 < 3.0.0",
+    "soupselect": "0.2.0",
+    "strftime": "^0.8.0",
+    "string": "^1.8.1",
+    "time": "^0.8.4",
+    "hubot-script-installer": "0.0.0"
+=======
     "chalk": "^1.0.0",
     "cline": "^0.8.2",
     "coffee-script": "1.6.3",
@@ -30,6 +44,7 @@
     "optparse": "1.0.4",
     "scoped-http-client": "0.10.3",
     "hubot-hipchat": "^2.6.4-2"
+>>>>>>> upstream/master
   },
   "engines": {
     "node": ">= 0.12.2",
