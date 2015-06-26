@@ -31,7 +31,8 @@
     "soupselect": "0.2.0",
     "strftime": "^0.8.0",
     "string": "^1.8.1",
-    "time": "^0.8.4"
+    "time": "^0.8.4",
+    "hubot-script-installer": "0.0.0"
   },
   "engines": {
     "node": ">= 0.8.x",
