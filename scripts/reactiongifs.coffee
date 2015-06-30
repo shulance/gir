@@ -135,7 +135,7 @@ dwayne = [
 ######### Random
 random = [
  "I pity the fool who expects a gif",
- "You are not worthy of an gif",
+ "You are not worthy of a gif",
  "GIF it a rest ;)",
  "Stop with the name calling, you're GIFfing me a headache!"
 ]
