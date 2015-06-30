@@ -22,7 +22,7 @@ nadja = [
   "http://s3-ec.buzzfed.com/static/2014-06/24/11/enhanced/webdr10/anigif_enhanced-26486-1403623157-1.gif",
   "https://s-media-cache-ak0.pinimg.com/originals/ad/2b/8d/ad2b8d15fb632381baf92289f6b4faf5.jpg",
   "http://31.media.tumblr.com/eecd53720302f4a44c8c21d440f97ba3/tumblr_mxteaohQp01s8mgkyo1_250.gif",
-  "Hey Nadja, wie war denn der Urlaub?" "Gräßlich! Im Hotel hatte ich Zimmernummer hundert. Und vom Türschild ist die Eins abgefallen!"
+  "Hey Nadja, wie war denn der Urlaub? Gräßlich! Im Hotel hatte ich Zimmernummer hundert. Und vom Türschild ist die Eins abgefallen!"
 ]
 
 ######### Sam/Pugs 
