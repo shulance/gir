@@ -144,7 +144,7 @@ low  = 1
 high = 10
 rand = Math.floor(Math.random() * (high - low + 1)) + low
 
-if rand < 7
+if rand < 4
   module.exports = (robot) ->
     robot.hear /nadja/i, (msg) ->
       msg.send msg.random nadja
