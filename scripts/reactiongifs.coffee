@@ -147,9 +147,9 @@ module.exports = (robot) ->
   robot.hear /nadja/i, (msg) ->
     rand = Math.floor(Math.random() * 10)
     if rand >= 8
-      msg.send msg.random nadja
-    if (rand => 4 && rand <= 6 )
-      msg.send msg.random random
+       msg.send msg.random nadja   
+    if (rand >= 4 && rand <= 6 )
+      msg.send msg.random random 
       
   robot.hear /sam/i, (msg) ->
     rand = Math.floor(Math.random() * 10)
