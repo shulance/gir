@@ -22,6 +22,7 @@ nadja = [
   "http://s3-ec.buzzfed.com/static/2014-06/24/11/enhanced/webdr10/anigif_enhanced-26486-1403623157-1.gif",
   "https://s-media-cache-ak0.pinimg.com/originals/ad/2b/8d/ad2b8d15fb632381baf92289f6b4faf5.jpg",
   "http://31.media.tumblr.com/eecd53720302f4a44c8c21d440f97ba3/tumblr_mxteaohQp01s8mgkyo1_250.gif",
+  "Hey Nadja, wie war denn der Urlaub?" "Gräßlich! Im Hotel hatte ich Zimmernummer hundert. Und vom Türschild ist die Eins abgefallen!"
 ]
 
 ######### Sam/Pugs 
@@ -32,6 +33,8 @@ sam = [
   "http://s3-ec.buzzfed.com/static/2013-11/enhanced/webdr06/11/9/anigif_enhanced-buzz-2570-1384181628-14.gif",
   "http://i.imgur.com/v3I5f0t.gif",
   "http://25.media.tumblr.com/tumblr_m6kkk71dyN1qiomupo1_500.gif",
+  "A guys walks into a pub in Bedfordshire. His name was Sam. The end.",
+  "Sam you don't play with me any more ..."
 ]
     
 ######### Vlad/White rabbits   
@@ -52,6 +55,9 @@ kat = [
   "https://38.media.tumblr.com/01d54ea49d23ea75d029fb00b3450e7d/tumblr_nexaioOz9F1te5ruso1_500.gif",
   "http://i.minus.com/ibomavtCiLvP0M.gif",
   "http://www.gifbin.com/bin/102014/1413374870_soccer_player_catches_ferret_on_field_and_gets_bitten.gif",
+  "What colour is Kat's hair today? I bet it's awesome!",
+  "Aber Herr Ober, der Kaffee ist ja kalt!" "Gut, dass Sie mir das sagen, mein Herr! Eiskaffee kostet nämlich einen Euro mehr ...",
+  "Wundert sich ein Besucher im Wachsfigurenkabinett: Das sollen Wachsfiguren sein? Seit meinem letzen Besuch sind die aber kein Stück gewachsen!"
 ]
     
 ######### Tony/Evil trolls   
@@ -69,6 +75,10 @@ nils = [
   "http://25.media.tumblr.com/133ac21d0cc80bb880c8176b90a05b36/tumblr_mv6c9fnytK1qbyxr0o1_400.gif",
   "http://24.media.tumblr.com/212b37de60b46994896c357dd46b4e41/tumblr_mfywc3qY9z1r63pb5o1_500.gif",
   "https://38.media.tumblr.com/42bd2627a419a203c58d37f3299a4a5e/tumblr_n0ek03JLoy1t3c41mo1_400.gif",
+  "Un éléphant qui se balancait ...",
+  "Sur une toile toile TOILE D'AIRAIGNEE ...",
+  "et qui trouvait ce jeux telement amusant ...",
+  "que enfin vint un deuxième éléphant !"
 ]
     
 ######### Caroline/Penguins   
@@ -89,6 +99,7 @@ steven = [
   "http://p.fod4.com/upload/aff3567c9abaad4b798a350dc1e1b1a3/EDfzNozQWusGPn3WDmBw_Horse%20Smack%20Faces.gif",
   "http://static.fjcdn.com/gifs/How+i+brush+my+tooth+tooooth_5a5ecf_4763845.gif",
   "http://p.fod4.com/upload/aff3567c9abaad4b798a350dc1e1b1a3/jW8vi8GSgy8wrr9Uyk4v_Horse%20Office.gif",
+  "Oh the Grand Old Duke of York, what did he have again @StevenRoy?"
 ]
 
 ######### Stas/mammoth   
@@ -121,36 +132,53 @@ dwayne = [
   "http://i.imgur.com/QeSPj.gif",
 ]
 
-module.exports = (robot) ->
-  robot.hear /nadja/i, (msg) ->
-    msg.send msg.random nadja
-    
-  robot.hear /sam/i, (msg) ->
-    msg.send msg.random sam    
-    
-  robot.hear /vlad/i, (msg) ->
-    msg.send msg.random vlad    
-    
-  robot.hear /kat/i, (msg) ->
-    msg.send msg.random kat
-    
-  robot.hear /tony/i, (msg) ->
-    msg.send msg.random tony
-    
-  robot.hear /nils/i, (msg) ->
-    msg.send msg.random nils
-    
-  robot.hear /caroline/i, (msg) ->
-    msg.send msg.random caroline
-    
-  robot.hear /steven/i, (msg) ->
-    msg.send msg.random steven
-    
-  robot.hear /stas/i, (msg) ->
-    msg.send msg.random stas
-    
-  robot.hear /andrii/i, (msg) ->
-    msg.send msg.random andrii
-    
-  robot.hear /dwayne/i, (msg) ->
-    msg.send msg.random dwayne
+######### Random
+random = [
+ "I pity the fool who expects a gif",
+ "You are not worthy of an gif",
+ "GIF it a rest ;)",
+ "Stop with the name calling, you're GIFfing me a headache!"
+]
+
+low  = 1
+high = 10
+rand = Math.floor(Math.random() * (high - low + 1)) + low
+
+if rand < 7
+  module.exports = (robot) ->
+    robot.hear /nadja/i, (msg) ->
+      msg.send msg.random nadja
+      
+    robot.hear /sam/i, (msg) ->
+      msg.send msg.random sam    
+      
+    robot.hear /vlad/i, (msg) ->
+      msg.send msg.random vlad    
+      
+    robot.hear /kat/i, (msg) ->
+      msg.send msg.random kat
+      
+    robot.hear /tony/i, (msg) ->
+      msg.send msg.random tony
+      
+    robot.hear /nils/i, (msg) ->
+      msg.send msg.random nils
+      
+    robot.hear /caroline/i, (msg) ->
+      msg.send msg.random caroline
+      
+    robot.hear /steven/i, (msg) ->
+      msg.send msg.random steven
+      
+    robot.hear /stas/i, (msg) ->
+      msg.send msg.random stas
+      
+    robot.hear /andrii/i, (msg) ->
+      msg.send msg.random andrii
+      
+    robot.hear /dwayne/i, (msg) ->
+      msg.send msg.random dwayne
+else 
+  module.exports = (robot) ->
+   msg.send msg.random random
+
