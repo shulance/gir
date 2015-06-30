@@ -34,7 +34,8 @@ sam = [
   "http://i.imgur.com/v3I5f0t.gif",
   "http://25.media.tumblr.com/tumblr_m6kkk71dyN1qiomupo1_500.gif",
   "A guys walks into a pub in Bedfordshire. His name was Sam. The end.",
-  "Sam you don't play with me any more ..."
+  "Sam you don't play with me any more ...",
+  "Hey Sam, you're aweSAM ;)"
 ]
     
 ######### Vlad/White rabbits   
@@ -44,7 +45,7 @@ vlad = [
   "http://media.giphy.com/media/JbEjJBYzFGgTe/giphy.gif",
   "http://i.imgur.com/h1jDbkW.gif",
   "http://www.gifwave.com/media/598934/animals-baby-white-rabbit-sleeping.gif",
-  "http://media0.giphy.com/media/Ul16jlcdV1B04/giphy.gif",
+  "http://media0.giphy.com/media/Ul16jlcdV1B04/giphy.gif"
 ]
     
 ######### Kat/ferrets   
@@ -56,7 +57,7 @@ kat = [
   "http://i.minus.com/ibomavtCiLvP0M.gif",
   "http://www.gifbin.com/bin/102014/1413374870_soccer_player_catches_ferret_on_field_and_gets_bitten.gif",
   "What colour is Kat's hair today? I bet it's awesome!",
-  "Aber Herr Ober, der Kaffee ist ja kalt!" "Gut, dass Sie mir das sagen, mein Herr! Eiskaffee kostet nämlich einen Euro mehr ...",
+  "Aber Herr Ober, der Kaffee ist ja kalt! Gut, dass Sie mir das sagen, mein Herr! Eiskaffee kostet nämlich einen Euro mehr ...",
   "Wundert sich ein Besucher im Wachsfigurenkabinett: Das sollen Wachsfiguren sein? Seit meinem letzen Besuch sind die aber kein Stück gewachsen!"
 ]
     
@@ -64,7 +65,7 @@ kat = [
 tony = [
   "https://31.media.tumblr.com/67bc1293166c76feb4d4377c08c50116/tumblr_msg82vtYz21sps5sko2_500.gif",
   "https://33.media.tumblr.com/tumblr_ltr0y7Vxo81qgnsnbo1_400.gif",
-  "https://31.media.tumblr.com/f94e629fcffb6526d5a166b27ea2ec02/tumblr_inline_mibz6aNQOg1qz4rgp.gif",
+  "https://31.media.tumblr.com/f94e629fcffb6526d5a166b27ea2ec02/tumblr_inline_mibz6aNQOg1qz4rgp.gif"
 ]
 
 ######### Nils/Kittens   
@@ -88,7 +89,7 @@ caroline = [
   "http://s3-ec.buzzfed.com/static/2014-08/4/8/enhanced/webdr07/anigif_enhanced-7504-1407157025-9.gif",
   "http://blog.oup.com/wp-content/uploads/2013/04/natgeopenguins.gif",
   "http://i.imgur.com/qI1CIwp.gif?1",
-  "http://r2-store.distractify.netdna-cdn.com/postimage/201409/25/e7ae66a54da1904444e7f289fc4342b5.gif",
+  "http://r2-store.distractify.netdna-cdn.com/postimage/201409/25/e7ae66a54da1904444e7f289fc4342b5.gif"
 ]
     
 ######### Steven/Horse masks   
@@ -109,7 +110,7 @@ stas = [
   "https://38.media.tumblr.com/6d914137b2b58f111027c78e67a167c2/tumblr_mskjmfCVR51swendro3_500.gif",
   "https://31.media.tumblr.com/4e813b0623f31a1b12e8e5eefddccbe7/tumblr_myjebwHixL1swendro1_250.gif",
   "https://38.media.tumblr.com/14ae36a6baf1cb62ced6c63032d1eba9/tumblr_myjebwHixL1swendro2_250.gif",
-  "https://38.media.tumblr.com/facb09db1baba6ca38dc3e0946aa83fb/tumblr_mskjmfCVR51swendro1_500.gif",
+  "https://38.media.tumblr.com/facb09db1baba6ca38dc3e0946aa83fb/tumblr_mskjmfCVR51swendro1_500.gif"
 ]
 
 ######### Andrii/mammoth   
@@ -119,7 +120,7 @@ andrii = [
   "http://38.media.tumblr.com/f5c78bd9b2adfd8f0dc2837ae3e02c96/tumblr_n13otwEpSe1rx5st2o1_250.gif",
   "http://38.media.tumblr.com/3e507bce38d1f28db1147380ab76aa51/tumblr_mxhw9ntcIa1sdyxczo1_400.gif",
   "http://38.media.tumblr.com/32a1bb88ab6e8d110d41453d2e6ba805/tumblr_nix8gy3tmh1tm0lv8o2_250.gif",
-  "http://38.media.tumblr.com/f045e6c60a9ea957fa91af7bd2d1f50a/tumblr_n8ko3vO5Qx1ql0375o3_250.gif",
+  "http://38.media.tumblr.com/f045e6c60a9ea957fa91af7bd2d1f50a/tumblr_n8ko3vO5Qx1ql0375o3_250.gif"
 ]
 
 ######### Dwayne/owls   
@@ -129,7 +130,7 @@ dwayne = [
   "http://media.giphy.com/media/fvzQtgBkrEgLK/giphy.gif",
   "http://media.giphy.com/media/dokdBUmBOvhUA/giphy.gif",
   "http://37.media.tumblr.com/29d8beea2fe3fffc3f09887ab339d983/tumblr_ms740v3eZ61rd0rbzo1_500.gif",
-  "http://i.imgur.com/QeSPj.gif",
+  "http://i.imgur.com/QeSPj.gif"
 ]
 
 ######### Random
@@ -137,48 +138,81 @@ random = [
  "I pity the fool who expects a gif",
  "You are not worthy of a gif",
  "GIF it a rest ;)",
- "Stop with the name calling, you're GIFfing me a headache!"
+ "Stop with the name calling, you're GIFfing me a headache!",
+ "... tumbleweed ...",
 ]
 
-low  = 1
-high = 10
-rand = Math.floor(Math.random() * (high - low + 1)) + low
 
-if rand < 4
-  module.exports = (robot) ->
-    robot.hear /nadja/i, (msg) ->
+module.exports = (robot) ->
+  robot.hear /nadja/i, (msg) ->
+    if rand >= 8
       msg.send msg.random nadja
+    if (rand => 4 && rand <= 6 )
+      msg.send msg.random random
       
-    robot.hear /sam/i, (msg) ->
-      msg.send msg.random sam    
+  robot.hear /sam/i, (msg) ->
+    if rand >= 8
+       msg.send msg.random sam   
+    if (rand >= 4 && rand <= 6 )
+      msg.send msg.random random 
       
-    robot.hear /vlad/i, (msg) ->
-      msg.send msg.random vlad    
+  robot.hear /vlad/i, (msg) ->
+    if rand >= 8
+      msg.send msg.random vlad
+    if (rand >= 4 && rand <= 6 )
+      msg.send msg.random random     
       
-    robot.hear /kat/i, (msg) ->
+  robot.hear /kat/i, (msg) ->
+    if rand >= 8
       msg.send msg.random kat
+    if (rand >= 4 && rand <= 6 )
+      msg.send msg.random random 
       
-    robot.hear /tony/i, (msg) ->
+  robot.hear /tony/i, (msg) ->
+    if rand >= 8
       msg.send msg.random tony
+    if (rand >= 4 && rand <= 6 )
+      msg.send msg.random random 
       
-    robot.hear /nils/i, (msg) ->
+  robot.hear /nils/i, (msg) ->
+    if rand >= 8
       msg.send msg.random nils
+    if (rand >= 4 && rand <= 6 )
+      msg.send msg.random random 
       
-    robot.hear /caroline/i, (msg) ->
-      msg.send msg.random caroline
+  robot.hear /caroline/i, (msg) ->
+    if rand >= 8
+     msg.send msg.random caroline
+    if (rand >= 4 && rand <= 6 )
+      msg.send msg.random random 
       
-    robot.hear /steven/i, (msg) ->
+  robot.hear /steven/i, (msg) ->
+    if rand >= 8
       msg.send msg.random steven
+    if (rand >= 4 && rand <= 6 )
+      msg.send msg.random random 
       
-    robot.hear /stas/i, (msg) ->
+  robot.hear /stas/i, (msg) ->
+    if rand >= 8
       msg.send msg.random stas
+    if (rand >= 4 && rand <= 6 )
+      msg.send msg.random random 
       
-    robot.hear /andrii/i, (msg) ->
+  robot.hear /andrii/i, (msg) ->
+    if rand >= 8
       msg.send msg.random andrii
+    if (rand >= 4 && rand <= 6 )
+      msg.send msg.random random 
       
-    robot.hear /dwayne/i, (msg) ->
+  robot.hear /dwayne/i, (msg) ->
+    if rand >= 8
       msg.send msg.random dwayne
-else 
-  module.exports = (robot) ->
-   msg.send msg.random random
-
+    if (rand >= 4 && rand <= 6 )
+      msg.send msg.random random 
+      
+  robot.hear /test/i, (msg) ->
+    rand = Math.floor(Math.random() * 10)
+    if rand >= 8
+      msg.send msg.random dwayne
+    if (rand >= 4 && rand <= 6 )
+      msg.send msg.random random 
