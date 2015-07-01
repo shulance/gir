@@ -100,7 +100,9 @@ steven = [
   "http://p.fod4.com/upload/aff3567c9abaad4b798a350dc1e1b1a3/EDfzNozQWusGPn3WDmBw_Horse%20Smack%20Faces.gif",
   "http://static.fjcdn.com/gifs/How+i+brush+my+tooth+tooooth_5a5ecf_4763845.gif",
   "http://p.fod4.com/upload/aff3567c9abaad4b798a350dc1e1b1a3/jW8vi8GSgy8wrr9Uyk4v_Horse%20Office.gif",
-  "Oh the Grand Old Duke of York, what did he have again @StevenRoy?"
+  "Oh the Grand Old Duke of York, what did he have again @StevenRoy?",
+  "http://s3.amazonaws.com/uploads.hipchat.com/67748/720243/oEF7TDsyIkbsTQK/ezgif.com-resize.gif",
+  "Right?"
 ]
 
 ######### Stas/mammoth   
