@@ -1,24 +1,26 @@
 {
   "name": "Gir",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "private": true,
-  "author": "Sam Hulance <sam.hulance@googlemail.com>",
+  "author": "Sam",
   "description": "TS EMEA Chat Bot",
   "dependencies": {
-    "hubot": "^2.12.0",
+    "hubot": "^2.13.2",
     "hubot-diagnostics": "0.0.1",
-    "hubot-google-images": "^0.1.4",
-    "hubot-google-translate": "^0.1.0",
+    "hubot-google-images": "^0.1.5",
+    "hubot-google-translate": "^0.2.0",
     "hubot-help": "^0.1.1",
     "hubot-heroku-keepalive": "0.0.4",
     "hubot-hipchat": "^2.12.0-5",
     "hubot-maps": "0.0.2",
     "hubot-pugme": "^0.1.0",
-    "hubot-redis-brain": "0.0.2",
-    "hubot-rules": "^0.1.0",
-    "hubot-scripts": "^2.5.16",
+    "hubot-redis-brain": "0.0.3",
+    "hubot-rules": "^0.1.1",
+    "hubot-scripts": "^2.16.1",
     "hubot-shipit": "^0.2.0",
-    "hubot-youtube": "^0.1.2"
+    "hubot-youtube": "^1.0.0",
+    "hubot-pugsofwesteros" : "^1.0.0",
+    "hubot-pugsofmarvel" : "^1.0.0"
   },
   "engines": {
     "node": "0.10.x"

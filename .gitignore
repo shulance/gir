@@ -1,14 +1,3 @@
 node_modules
 .DS_Store*
-
-scripts/sign-in.coffee
-
-.editorconfig
-
 .hubot_history
-
-scripts/sign-in.coffee
-
-scripts/example.coffee
-
-package.json
