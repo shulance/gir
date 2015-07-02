@@ -148,84 +148,79 @@ random = [
 module.exports = (robot) ->
   robot.hear /nadja/i, (msg) ->
     rand = Math.floor(Math.random() * 10)
-    if rand >= 8
+    if rand >= 9
        msg.send msg.random nadja   
-    if (rand >= 4 && rand <= 6 )
+    if (rand >= 4 && rand <= 5 )
       msg.send msg.random random 
       
   robot.hear /sam/i, (msg) ->
     rand = Math.floor(Math.random() * 10)
-    if rand >= 8
+    if rand >= 9
        msg.send msg.random sam   
-    if (rand >= 4 && rand <= 6 )
+    if (rand >= 4 && rand <= 5 )
       msg.send msg.random random 
       
   robot.hear /vlad/i, (msg) ->
     rand = Math.floor(Math.random() * 10)
-    if rand >= 8
+    if rand >= 9
       msg.send msg.random vlad
-    if (rand >= 4 && rand <= 6 )
+    if (rand >= 4 && rand <= 5 )
       msg.send msg.random random     
       
   robot.hear /kat/i, (msg) ->
     rand = Math.floor(Math.random() * 10)
-    if rand >= 8
+    if rand >= 9
       msg.send msg.random kat
-    if (rand >= 4 && rand <= 6 )
+    if (rand >= 4 && rand <= 5 )
       msg.send msg.random random 
       
   robot.hear /tony/i, (msg) ->
     rand = Math.floor(Math.random() * 10)
-    if rand >= 8
+    if rand >= 9
       msg.send msg.random tony
-    if (rand >= 4 && rand <= 6 )
+    if (rand >= 4 && rand <= 5 )
       msg.send msg.random random 
       
   robot.hear /nils/i, (msg) ->
     rand = Math.floor(Math.random() * 10)
-    if rand >= 8
+    if rand >= 9
       msg.send msg.random nils
-    if (rand >= 4 && rand <= 6 )
+    if (rand >= 4 && rand <= 5 )
       msg.send msg.random random 
       
   robot.hear /caroline/i, (msg) ->
     rand = Math.floor(Math.random() * 10)
-    if rand >= 8
+    if rand >= 9
      msg.send msg.random caroline
-    if (rand >= 4 && rand <= 6 )
+    if (rand >= 4 && rand <= 5 )
       msg.send msg.random random 
       
   robot.hear /steven/i, (msg) ->
     rand = Math.floor(Math.random() * 10)
-    if rand >= 8
+    if rand >= 9
       msg.send msg.random steven
-    if (rand >= 4 && rand <= 6 )
+    if (rand >= 4 && rand <= 5 )
       msg.send msg.random random 
       
   robot.hear /stas/i, (msg) ->
     rand = Math.floor(Math.random() * 10)
-    if rand >= 8
+    if rand >= 9
       msg.send msg.random stas
-    if (rand >= 4 && rand <= 6 )
+    if (rand >= 4 && rand <= 5 )
       msg.send msg.random random 
       
   robot.hear /andrii/i, (msg) ->
     rand = Math.floor(Math.random() * 10)
-    if rand >= 8
+    if rand >= 9
       msg.send msg.random andrii
-    if (rand >= 4 && rand <= 6 )
+    if (rand >= 4 && rand <= 5 )
       msg.send msg.random random 
       
   robot.hear /dwayne/i, (msg) ->
     rand = Math.floor(Math.random() * 10)
-    if rand >= 8
+    if rand >= 9
       msg.send msg.random dwayne
-    if (rand >= 4 && rand <= 6 )
+    if (rand >= 4 && rand <= 5 )
       msg.send msg.random random 
       
-  robot.hear /test/i, (msg) ->
-    rand = Math.floor(Math.random() * 10)
-    if rand >= 8
-      msg.send msg.random dwayne
-    if (rand >= 4 && rand <= 6 )
-      msg.send msg.random random 
+  
