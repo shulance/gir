@@ -16,7 +16,7 @@ freshpot = [
 ]
 
 coffeeMakers = [
-  "Jamie",
+  "@JamieIrving",
   "Nils",
   "Sam",
   "Tony",
@@ -33,6 +33,6 @@ module.exports = (robot) ->
     #Jamie makes such good coffee
     random = (Math.round(Math.random() * 1))
     if random == 1
-      randomCoffeeMaker = "Jamie"
+      randomCoffeeMaker = "@JamieIrving"
 
     msg.send 'It is ' + randomCoffeeMaker + '\'s turn to make the coffee.'
