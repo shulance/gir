@@ -144,6 +144,11 @@ random = [
  "... tumbleweed ...",
 ]
 
+######### Clients
+clients = [
+  "https://s3.amazonaws.com/uploads.hipchat.com/67748/720248/dADQpRlYilmxqSo/11737955_404497019755255_7488399405959015142_n.jpg"
+]
+
 
 module.exports = (robot) ->
   robot.hear /nadja/i, (msg) ->
@@ -223,4 +228,6 @@ module.exports = (robot) ->
     if (rand >= 4 && rand <= 5 )
       msg.send msg.random random 
       
+  robot.hear /client/i, (msg) ->
+      msg.send msg.random clients 
   
