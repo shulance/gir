@@ -230,6 +230,6 @@ module.exports = (robot) ->
       
   robot.hear /client/i, (msg) ->
     rand = Math.floor(Math.random() * 10)
-    if rand = 9
+    if rand == 9
       msg.send msg.random clients 
       
