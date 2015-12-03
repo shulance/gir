@@ -135,6 +135,25 @@ dwayne = [
   "http://i.imgur.com/QeSPj.gif"
 ]
 
+######### Solomiia/hedgehogs   
+solomiia = [
+  "http://ak-hdl.buzzfed.com/static/enhanced/webdr06/2013/9/17/10/anigif_enhanced-buzz-30162-1379428234-21.gif",
+  "https://media.giphy.com/media/WcddPgiWWsUFO/giphy.gif",
+  "http://www.hedgehogcare101.com/wp-content/uploads/2014/01/hedgehog-pictures-gif.gif",
+  "https://s-media-cache-ak0.pinimg.com/originals/a0/e8/de/a0e8dea9dd794fa3dcbc8e6c4ac0cbe3.jpg",
+  "http://i.imgur.com/cA5HB4G.gif",
+  "http://media.giphy.com/media/98eyM9MSQ8cgM/giphy.gif"
+]
+
+######### Severine/geckos   
+severine = [
+  "http://49.media.tumblr.com/tumblr_mdnc033NpZ1qbc3qpo1_500.gif",
+  "http://new4.fjcdn.com/gifs/Gecko+licking+a+cheerio+which+is+exactly+what+it+is_2e80b9_4233612.gif",
+  "http://24.media.tumblr.com/f249ad9d786fa533e391b542adadb2d4/tumblr_mk5ao8qY3j1qa6nhao3_250.gif",
+  "http://45.media.tumblr.com/96e6cbd2e15a5c63ef3a47e6308be925/tumblr_nqx6o3OLdQ1uzif7eo2_r2_500.gif",
+  "http://i.imgur.com/5iqLxXu.gif",
+]
+
 ######### Random
 random = [
  "I pity the fool who expects a gif",
@@ -225,6 +244,20 @@ module.exports = (robot) ->
     rand = Math.floor(Math.random() * 10)
     if rand >= 9
       msg.send msg.random dwayne
+    if (rand >= 4 && rand <= 5 )
+      msg.send msg.random random 
+      
+  robot.hear /severine/i, (msg) ->
+    rand = Math.floor(Math.random() * 10)
+    if rand >= 9
+      msg.send msg.random severine
+    if (rand >= 4 && rand <= 5 )
+      msg.send msg.random random 
+     
+  robot.hear /solomiia/i, (msg) ->
+    rand = Math.floor(Math.random() * 10)
+    if rand >= 9
+      msg.send msg.random solomiia
     if (rand >= 4 && rand <= 5 )
       msg.send msg.random random 
       
