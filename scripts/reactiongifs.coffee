@@ -45,7 +45,8 @@ vlad = [
   "http://media.giphy.com/media/JbEjJBYzFGgTe/giphy.gif",
   "http://i.imgur.com/h1jDbkW.gif",
   "http://www.gifwave.com/media/598934/animals-baby-white-rabbit-sleeping.gif",
-  "http://media0.giphy.com/media/Ul16jlcdV1B04/giphy.gif"
+  "http://media0.giphy.com/media/Ul16jlcdV1B04/giphy.gif",
+  "http://49.media.tumblr.com/tumblr_lw4txnWANb1qklopeo1_400.gif"
 ]
     
 ######### Kat/ferrets   
